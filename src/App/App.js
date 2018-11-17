@@ -1,5 +1,7 @@
 import React from 'react';
-import './header.css'
+
+
+import Header from './Header/Header'
 import './main.css'
 import './menu.css'
 import './main-news.css'
@@ -9,26 +11,8 @@ import './reset.css'
 const App = () => {
   return (
 <div className='App'>
-  <header>
-		<div className="logo">
-			<a href="#"><img src="img/logo.jpg" alt="" className="logo"/></a>
-		</div>	
-		<div className="search-container">
-			<form action="/action_page.php">
-				<input type="text" placeholder="Search.." name="search"/>
-				<button type="submit"><i className="fa fa-search"></i></button>
-			</form>
-		</div>
-		<div className="login-container">
-			<form>
-				<input type="text" placeholder="Username" name="username"/>
-				<input type="text" placeholder="Password" name="psw"/>
-				<button type="submit">Register</button>
-				<button type="submit">Sign in</button>
-			</form>
-		</div>
-	</header>		
-	<section>
+  	<Header/>
+	{/* <section>
 			<nav>
 				<ul>
 					<li><a href="#">All</a></li>
@@ -134,7 +118,7 @@ const App = () => {
                 <li><a href="#"><img src="img/Icons/youtube.png" alt=""/></a></li>
             </ul>
 		</div>
-	</footer>
+	</footer> */}
 </div>
   )
 }
