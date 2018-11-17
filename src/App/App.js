@@ -3,7 +3,7 @@ import React from 'react';
 
 import Header from './Header/Header'
 import './main.css'
-import './menu.css'
+import Menu from './Main/Menu/Menu'
 import './main-news.css'
 import './footer.css'
 import './reset.css'
@@ -12,6 +12,7 @@ const App = () => {
   return (
 <div className='App'>
   	<Header/>
+	<Menu/>
 	{/* <section>
 			<nav>
 				<ul>
