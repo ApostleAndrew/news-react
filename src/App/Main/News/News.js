@@ -1,38 +1,10 @@
-import React from 'react';
+import React from 'react'
 
+import './main.css'
 
-import Header from './Header/Header'
-import Main from './Main/Main'
-import Fotter from './Fotter/Fotter'
-
-
-import './main-news.css'
-import '../common/style/reset.css'
-
-
-const App = () => {
-  return (
-<div className='App'>
-  	<Header/>
-	<Main/>
-	<Fotter/>
-	{/* <section>
-			<nav>
-				<ul>
-					<li><a href="#">All</a></li>
-					<li><a href="#">Sports</a></li>
-					<li><a href="#">Life</a></li>
-					<li><a href="money.html">Money</a></li>
-					<li><a href="#">Politics</a></li>
-					<li><a href="#">Opinion</a></li>
-					<li><a href="#">Weather</a></li>
-					<li><a href="#">Elections</a></li>
-					<li><a href="#">Policing</a></li>
-					<li><a href="#">Video</a></li>
-					<li><a href="#">Stocks</a></li>
-				</ul>
-			</nav>	
-		<article>
+const News = () => {
+    return(
+        <article>
 			<div className="headline"><h2>Politics</h2></div>
 			<div className="news-post">
 				<div className="news-photo">
@@ -101,31 +73,8 @@ const App = () => {
 				</div>
 			</div>
 		</article>
-	</section>	
-	<footer>
-		<hr/>
-		<div className="menu-footer">
-			<ul>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Servies</a></li>
-				<li><a href="#">Channels</a></li>
-				<li><a href="#">More Sites</a></li>
-			</ul>
-		</div>
-		<hr/>
-		<div className="end">	
-            <span>© 2018 News UK</span>
-            <ul>
-                <li><a href="https://www.facebook.com/"><img src="img/Icons/facebook.png" alt=""/></a></li>
-                <li><a href="#"><img src="img/Icons/instagram.png" alt=""/></a></li>
-                <li><a href="#"><img src="img/Icons/twitter.png" alt=""/></a></li>
-                <li><a href="#"><img src="img/Icons/youtube.png" alt=""/></a></li>
-            </ul>
-		</div>
-	</footer> */}
-</div>
-  )
+
+    )
 }
 
-
-export default App
+export default News

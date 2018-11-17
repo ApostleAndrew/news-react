@@ -4,7 +4,6 @@ import './menu.css'
 
 const Menu = () => {
     return (
-        <section>
 			<nav>
 				<ul>
 					<li><a href="#">All</a></li>
@@ -19,9 +18,7 @@ const Menu = () => {
 					<li><a href="#">Video</a></li>
 					<li><a href="#">Stocks</a></li>
 				</ul>
-			</nav>	
-	</section>
-        
+			</nav>
     )
 }
 

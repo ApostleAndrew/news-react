@@ -34,7 +34,7 @@ footer {
 hr {
 	width: 90%;
 }
-.end {
+.icons {
     color: black;
     font-size: 14px;
     margin-left: 5%;
@@ -42,7 +42,7 @@ hr {
     padding: 5px;
 }
 
-.end li{
+.icons li{
 	float: left;
 	margin-top: 1%;
 	width: 5%;
@@ -50,7 +50,7 @@ hr {
 	list-style: none;
 }
 
-.end li a {
+.icons li a {
 	line-height: 48px;
 	display: block;
 	color: #ccc;
@@ -58,6 +58,6 @@ hr {
 	font-family: 'Calibri';
 	text-transform: uppercase;
 }
-.end li a:hover {
+.icons li a:hover {
 	opacity: 0.8;
 }

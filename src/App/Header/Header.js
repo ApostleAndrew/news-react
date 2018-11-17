@@ -14,7 +14,7 @@ const Header = () => {
 		<Logo/>
 		<Search/>
 		<Login/>
-	</header>
+	    </header>
     )
 }
 
