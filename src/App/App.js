@@ -6,7 +6,6 @@ import Main from './Main/Main'
 import Fotter from './Fotter/Fotter'
 
 
-import './main-news.css'
 import '../common/style/reset.css'
 
 

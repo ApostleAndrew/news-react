@@ -1,6 +1,8 @@
 import React, {Component} from 'react'
 import PropTypes from 'prop-types'
 
+import './news.css'
+
 class News extends Component {
 
     static propTypes = {
@@ -27,6 +29,7 @@ render(){
 					<p>
                     {description}
 					</p>
+                    <div className='read-more'><a href='#'><p>Read more...</p></a></div>
 				</div>
 			</div>
     )
