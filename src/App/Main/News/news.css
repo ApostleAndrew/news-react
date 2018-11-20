@@ -19,12 +19,12 @@ section:after {
     margin-left: 25%;
     margin-top:2%;
     padding: 5px;
-    height: 180px;
+    height: 100%;
     width: 97%;
 }
 .news-photo img {
-    height: 170px;
-    width: 190px;
+    height: 160px;
+    width: 210px;
 }
 .news-name {
     margin-top: -18%;
@@ -42,13 +42,18 @@ section:after {
 .news-description {
     margin-left: 25%;
     margin-top: 2%;
+    line-height: 1.5;
+    font-family: sans-serif;
 }
-.read-more a {
-    padding: 5px;
-    text-decoration: none;
+
+.news-description button {
+    color: white;
+    background-color: #4169E0;
+    line-height: 18px;
     font-size: 15px;
-    color: slategrey;
+    border: none;
+    cursor: pointer;   
 }
-.read-more a:hover {
-    color: black;
+.news-description button:hover {
+    color: #ccc;
 }

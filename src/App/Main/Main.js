@@ -15,13 +15,15 @@ const Main = () => {
                 New.map(({
                     id,
                     name,
-                    description,
+                    descriptionLess,
+                    descriptionMore,
                     image,
                 }) => (
                     <article key={id}>
                     <News
                         name={name}
-                        description={description}
+                        descriptionMore = {descriptionMore}
+                        descriptionLess={descriptionLess}
                         image={image}
                     />
                             

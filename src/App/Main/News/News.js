@@ -4,7 +4,17 @@ import PropTypes from 'prop-types'
 import './news.css'
 
 class News extends Component {
+    // constructor(props) {
+    //     super(props)
 
+    //     this.state = {
+    //         isOpen: true,
+    //     }
+     //     this.handleClick = handleClick.bind(this)
+    // }
+    state = {
+        isOpen: false,
+    }
     static propTypes = {
         name: PropTypes.string.isRequired,
         description: PropTypes.string,
@@ -13,10 +23,11 @@ class News extends Component {
 render(){
     const {
         name,
-        description,
+        descriptionMore,
+        descriptionLess,
         image,
-
     } = this.props
+    const desc =  this.state.isOpen && <p>{descriptionMore}</p> 
     return(
 			<div className="news-post">
 				<div className="news-photo">
@@ -26,14 +37,23 @@ render(){
 					<a href="#"><h2>{name}</h2></a>
 				</div>
 				<div className="news-description">
-					<p>
-                    {description}
-					</p>
-                    <div className='read-more'><a href='#'><p>Read more...</p></a></div>
+                    {descriptionLess}
+                    {desc}
+                    <button onClick={this.handleClick}>
+                        {this.state.isOpen ? 'Read less..' : 'Read more..'}
+                    </button>
 				</div>
 			</div>
     )
 }
+handleClick = () => {
+    console.log('---', 'clicked')
+    this.setState({
+        isOpen: !this.state.isOpen,
+    })
 }
+}
+
+
 
 export default News

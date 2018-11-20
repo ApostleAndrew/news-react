@@ -18,7 +18,7 @@ header {
 }
 .search-container  {
     margin-left: 6%;
-    width: 250px;
+    width: 222px;
     line-height: 60px;
     font-size: 17px;
     cursor: pointer;
@@ -39,8 +39,17 @@ header {
 .search-container button:hover {
     color: #ccc;
 }
+.today-day {
+    display: table-caption;
+    color: #4169E0;
+    width: 210px;
+    margin-top: 15px;
+    padding: 8px;
+    height: 60px;
+    font-family: cursive;
+}
 .login-container {
-    margin-left: 14%;
+    margin-left: 1%;
     margin-top: 18px;
 } 
  input[type=text] {

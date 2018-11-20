@@ -13,6 +13,7 @@ const Header = () => {
         <header className='header'>
 		<Logo/>
 		<Search/>
+		{/* <div className='today-day'><h3>Today: {(new Date()).toDateString()}</h3></div> */}
 		<Login/>
 	    </header>
     )
