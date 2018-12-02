@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Logo from './Logo/Logo'
+import Logo from './Logo/logo'
 import Search from './Search/Search'
 import Login from './Login/Login'
 
