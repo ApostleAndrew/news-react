@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import PropTypes from 'prop-types'
+import {Link} from 'react-router-dom'
 
 import './news.css'
 
@@ -23,13 +24,13 @@ render(){
 					<img src={image} alt=""/>
 				</div>
 				<div className="news-name">
-					<a href="#"><h2>{name}</h2></a>
+					<Link to='/NewsPage'><h2>{name}</h2></Link>
 				</div>
 				<div className="news-description">
 					<p>
                     {description}
 					</p>
-                    <div className='read-more'><a href='#'><p>Read more...</p></a></div>
+                    <Link to='/NewsPage'> <div className='read-more'><p>Read more...</p></div></Link>
 				</div>
 			</div>
     )

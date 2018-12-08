@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 import './menu.css'
 
 const Menu = () => {
@@ -7,7 +7,7 @@ const Menu = () => {
 		<div className='menu'>
 			<nav>
 				<ul>
-					<li><a href="#">All</a></li>
+					<li><Link to='/'>All</Link></li>
 					<li><a href="#">Sports</a></li>
 					<li><a href="#">Life</a></li>
 					<li><a href="money.html">Money</a></li>
