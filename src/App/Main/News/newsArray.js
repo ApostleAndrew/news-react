@@ -7,6 +7,7 @@ const NewsArray = [
     },
     {
         id:2,
+        categories:'sports',
         name: 'May facing resignations of ministerial aides over fixed-odds',
         description: 'Sky News understands that female employees expressed concerns to airport managers about what they regarded as inappropriate behaviour by Mr Salmond a decade ago. As first minister, he regularly passed through the airport terminal. A spokesperson for Edinburgh Airport said: "We can confirm we are assisting Police Scotland with their enquiries. "We cannot comment further at this time." While no formal complaint was made, airport officials related their concerns to the then-SNP MP Angus Robertson',
         image:"/img/money/2.jpg",

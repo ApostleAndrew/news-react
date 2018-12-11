@@ -2,13 +2,17 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import './menu.css'
 
-const Menu = () => {
+const Menu = ({
+	id,
+	categories,
+
+}) => {
     return (
 		<div className='menu'>
 			<nav>
 				<ul>
 					<li><Link to='/'>All</Link></li>
-					<li><Link to='/Sports'>Sports</Link></li>
+					<li><Link to={`/sports/${categories}='sports'`}>Sports</Link></li>
 					<li><Link to='/Life'>Life</Link></li>
 					<li><Link to='/Money'>Money</Link></li>
 					<li><Link to='/Politics'>Politics</Link></li>

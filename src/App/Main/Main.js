@@ -6,15 +6,29 @@ import NewsArray from './News/newsArray'
 
 import './main.css'
 import NewsPage from './News/NewsPage/NewsPage';
+import NewsCategories from './News/NewsCategories/NewsCategories';
 
 
     
 
 
-const Main = () => {
+const Main = ({
+    name,
+    description,
+    id,
+    image,
+    categories,
+}) => {
     return (
         <section>
-			<Menu/>
+			<Menu
+            name={name}
+            description={description}
+            image={image}
+            id={id}
+            categories={categories}
+  
+            />
             {/* <div className="headline"><h2>All</h2></div> */}
             {
                 NewsArray.map(({
@@ -32,16 +46,11 @@ const Main = () => {
                         image={image}
                         id={id}
                         /> 
-						)
-				}}/>
-                     
-                    
-                            
-                    </article>
-                   
-                ))
-                }
-                 <Route path='/news/:newsId' component={NewsPage}/>
+                    )}}/>          
+                    </article>   
+                ))}
+                <Route path='/newscategories/:categories' component={NewsCategories}/>
+                <Route path='/newspage/:newsId' component={NewsPage}/>
                
 	    </section>
     )
