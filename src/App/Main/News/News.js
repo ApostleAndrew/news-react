@@ -13,6 +13,7 @@ class News extends Component {
 
 render(){
     const {
+        id,
         name,
         description,
         image,
@@ -24,13 +25,13 @@ render(){
 					<img src={image} alt=""/>
 				</div>
 				<div className="news-name">
-					<Link to='/NewsPage'><h2>{name}</h2></Link>
+					<Link to={`news/${id}`}><h2>{name}</h2></Link>
 				</div>
 				<div className="news-description">
 					<p>
                     {description}
 					</p>
-                    <Link to='/NewsPage'> <div className='read-more'><p>Read more...</p></div></Link>
+                    <Link to={`news/${id}`}> <div className='read-more'><p>Read more...</p></div></Link>
 				</div>
 			</div>
     )

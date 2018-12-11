@@ -11,9 +11,9 @@ const Icons = () => {
             <span>© 2018 News UK</span>
             <ul>
                 <li><a href="https://www.facebook.com/"><img src={facebook} alt=""/></a></li>
-                <li><a href="#"><img src={instagram} alt=""/></a></li>
-                <li><a href="#"><img src={twitter} alt=""/></a></li>
-                <li><a href="#"><img src={youtube} alt=""/></a></li>
+                <li><a href="https://www.instagram.com/"><img src={instagram} alt=""/></a></li>
+                <li><a href="https://www.twitter.com/"><img src={twitter} alt=""/></a></li>
+                <li><a href="https://www.youtube.com/"><img src={youtube} alt=""/></a></li>
             </ul>
 		</div>
 

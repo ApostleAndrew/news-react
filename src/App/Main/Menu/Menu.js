@@ -8,16 +8,16 @@ const Menu = () => {
 			<nav>
 				<ul>
 					<li><Link to='/'>All</Link></li>
-					<li><a href="#">Sports</a></li>
-					<li><a href="#">Life</a></li>
-					<li><a href="money.html">Money</a></li>
-					<li><a href="#">Politics</a></li>
-					<li><a href="#">Opinion</a></li>
-					<li><a href="#">Weather</a></li>
-					<li><a href="#">Elections</a></li>
-					<li><a href="#">Policing</a></li>
-					<li><a href="#">Video</a></li>
-					<li><a href="#">Stocks</a></li>
+					<li><Link to='/Sports'>Sports</Link></li>
+					<li><Link to='/Life'>Life</Link></li>
+					<li><Link to='/Money'>Money</Link></li>
+					<li><Link to='/Politics'>Politics</Link></li>
+					<li><Link to='/Opinion'>Opinion</Link></li>
+					<li><Link to='/Weather'>Weather</Link></li>
+					<li><Link to='/Elections'>Elections</Link></li>
+					<li><Link to='/Policing'>Policing</Link></li>
+					<li><Link to='/Video'>Video</Link></li>
+					<li><Link to='/Stocks'>Stocks</Link></li>
 				</ul>
 			</nav>
 		</div>

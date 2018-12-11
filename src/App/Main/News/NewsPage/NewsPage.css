@@ -1,11 +1,10 @@
 
-article {
-	margin-left: 3%;
-    padding: 20px;
+article.page {
+	margin-left: 16%;
     width: 70%;
     vertical-align: top;
 }
-.headline {
+.headline-page {
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -14,37 +13,33 @@ article {
     color: white;
 }
 
-section:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
-.news-post {
+
+.news-post-page {
     margin-top:2%;
     padding: 5px;
     height: 850px;
     width: 100%;
 }
-.news-photo img {
+.news-photo-page img {
     height: 300px;
     width: 600px;
     margin-left: 147px;
 }
-.news-name {
+.news-name-page {
     margin-top: -17%;
     margin-left: 25%;
  
 }
-.news-name a {
+.news-name-page a {
     text-decoration: none;
     font-size: 20px;
     color: slategrey;
 }
-.news-name a:hover{
+.news-name-page a:hover{
     color: black;
 }
-.news-description {
+.news-description-page {
     margin-top: 2%;
     font-size: 19px;
     text-align: left;
